@@ -1,0 +1,51 @@
+.rightCOntent{
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.Aside{
+    padding: 16px 20px;
+    margin-top: 20px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    .heading{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #202020;
+    }
+ .AsideTitle{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 17px;
+     border-top: 2px solid #E4E4E4;
+     padding-top: 18px;
+     line-height: 20px;
+     color: #202020;
+ }
+ .AsideText{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 17px;
+     color: #7688A4;
+ }
+}
+
+.AsideLink{
+    text-decoration: none;
+}
+.adBanner{
+    width: 100%;
+    border-radius: 5px;
+    background: url('../../assets/img/humans-preview.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 25rem;
+}

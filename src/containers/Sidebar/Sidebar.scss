@@ -1,0 +1,52 @@
+.side-bar {
+    width: 0;
+    right: 0;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) all 0.5s;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    height: 100%;
+    background: #e5e5e5;
+    padding: 10px 8px;
+    overflow: hidden;
+    opacity: 0;
+    &.active{
+        opacity: 1;
+        width: 60%;
+        @media screen and (max-width: 465px) {
+            .drawer-logo {
+                margin: 3rem auto 1rem ​auto;
+                svg{
+                    width: 200px;
+                }
+            }
+        }
+        
+    }
+    .drawer-logo{
+        margin: 3rem auto;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .close-btn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border:  none;
+        background: blue;
+        color: white;
+    }
+    .side-bar-link{
+        display: block;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        color: #515151;
+        text-decoration: none;
+        margin-bottom: 15px;
+        
+    }
+}

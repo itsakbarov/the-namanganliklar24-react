@@ -1,0 +1,86 @@
+.SimilarNews {
+        .cardHolder {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-between;
+                           @media screen and (max-width: 525px) {
+                                   place-content: center;
+                           }
+
+                .RelatedNews {
+                        font-family: Rubik;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+                        margin: 15px 0 15px 10px;
+                }
+        }
+
+        border-top: 1px solid #00000042;
+}
+
+.SingleNewsImage {
+        width: 100%;
+}
+
+.Wrapper {
+        display: flex;
+
+        .Content {
+                padding-right: 15px;
+                width: 70%;
+                @media screen and (max-width: 525px) {
+                        width: 100%;
+                }
+                .NewsTitle {
+                        font-family: Rubik;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 35px;
+                        color: #000000;
+                        margin: 17px 0;
+                        text-transform: capitalize;
+                }
+
+                .Desc{
+                        margin-top: 17px;
+                        width: 90%;
+                }
+                .NewsContent{
+                        margin-top: 28px;
+                        width:100%;
+                }
+                .Auth{
+                        text-align: right;
+                }
+        }
+
+        .aside {
+                width: 30%;
+                           @media screen and (max-width: 525px) {
+                                   width: 0;
+                           }
+        }
+}
+.Lorem{
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        
+        p,h2{
+                margin: 0;
+        }
+}
+.fle {
+        width: 500px;
+        margin: 0 auto;
+        p{
+                margin: 0;
+        }
+}
+
+

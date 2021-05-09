@@ -1,0 +1,20 @@
+.LatestWrapper {
+    display: flex;
+    justify-content: space-between;
+    .horizon{
+        opacity: 0;
+    }
+    .left{
+        width: 65%;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+    }
+    .right{
+        width: 30%;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+        
+    }
+}

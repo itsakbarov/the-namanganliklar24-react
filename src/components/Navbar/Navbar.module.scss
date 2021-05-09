@@ -1,0 +1,20 @@
+.navLink {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #515151;
+}
+.NavConf{
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+    padding: 21px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

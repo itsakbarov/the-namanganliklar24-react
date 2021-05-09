@@ -1,0 +1,32 @@
+.NewsCard{
+    width: 330px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    
+    .CardPictureHolder{
+        width: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+        height: 190px;
+    }
+    .cardTitle{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        margin: 0;
+        color: #202020;
+    }
+    .cardInfo{
+        font-style: normal;
+        font-weight: normal;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6B6D97;
+    }
+}
+.horizon {
+    display: none;
+}

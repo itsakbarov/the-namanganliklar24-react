@@ -1,0 +1,30 @@
+.Container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    .main{
+        padding-right: 15px;
+        width: 70%;
+        @media screen and (max-width: 525px) {
+            width: 100%;
+        }
+        .Heading{
+            text-transform: capitalize;
+        }
+    }
+    .aside{
+        width: 30%;
+        @media screen and (max-width: 525px) {
+            width: 0;
+        }
+    }
+}
+.Heading{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.548);
+}

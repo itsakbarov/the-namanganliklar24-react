@@ -1,0 +1,42 @@
+.Notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background: rgba(239, 186, 84, 0.18);
+border-radius: 5px;
+margin: 35px 0;
+padding: 25px 20px;
+    .left{
+        display: flex;
+        align-items: center;
+        span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            margin-left: 18px;
+            color: #000000;
+                        @media screen and (max-width: 525px) {
+                            // line-height: 0;
+                            font-size: 15px;
+                        }
+        }
+    }
+    .right{
+        button{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            padding: 8px 12px;
+            background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+            border-radius: 5px;
+            border: none;
+            color: #FFFFFF;
+            @media screen and (max-width: 525px) {
+                line-height: inherit;
+                font-size: 15px;
+            }
+        }
+    }
+}

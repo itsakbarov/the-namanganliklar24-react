@@ -1,0 +1,14 @@
+.covidBanner {
+    background: #F6F6F9;
+    color: white;
+    border-radius: 5px;
+    padding: 53px 30px;
+    margin: 22px 0 20px 0;
+    background-image: url('https://images.unsplash.com/photo-1618213520536-ce37aabcd9e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (max-width: 525px) {
+        padding: 23px 15px;
+    }
+}

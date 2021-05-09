@@ -1,0 +1,76 @@
+.SiteFooter{
+    background: #295093;
+    padding: 18px 0;
+}
+.FooterLogo{
+    background: #133C82;
+    display: inline-block;
+    border-radius: 5px;
+    // transform: matrix(1, 0, 0, -1, 0, 0);
+    padding: 10px 12px;
+}
+.dFlex{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 18px;
+    justify-content: space-between;
+}
+.FooterTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #133C82;
+    padding-bottom: 18px;
+}
+.FootText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 17px;
+       @media screen and (max-width: 525px) {
+           display: none;
+       }
+}
+.FooterBtnLink{
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    svg{
+        margin-right: 7px;
+    }
+    padding: 11px;
+}
+.FooterLink{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.About{
+ width: 35%;   
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 17px;
+ color: #FFFFFF;
+
+ a{
+     text-decoration: none;
+     color: white;
+     font-weight: 700;
+ }
+}

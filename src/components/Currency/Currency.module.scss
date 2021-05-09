@@ -1,0 +1,12 @@
+.Currency{
+    display: flex;
+    padding: 0;
+    @media screen and (max-width:768px) {
+        display: none;
+        
+    }
+    span{
+        color:#025097;
+        font-weight: 600;
+    }
+}

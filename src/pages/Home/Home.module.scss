@@ -1,0 +1,11 @@
+.homePage {}
+
+.cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    @media screen and (max-width: 525px) {
+        place-content: center
+    }
+}

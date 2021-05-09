@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.horizon {
+    display: flex;
+    width: 100% !important;
+    img{
+        width: 280px !important;
+        height: 143px !important;
+        min-width: 280px;
+    }
+    .horizon-left{
+        margin-left: 19px;
+    }
+            .extra-card-text {
+                height: 55px;
+                overflow: hidden;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 18px;
+                color: #434343;
+            }
+        }
+
+        .overlay{
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            box-sizing: border-box;
+            position: fixed;
+            z-index: -1;
+            opacity: 0;
+            transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) all 0.5s;
+            &.opened{
+                z-index: 1;
+                opacity: 1;
+            }
+            background-color: #00000070;
+        }
+        .extra-card-text{
+                font-family: Rubik;
+                font-weight: normal;
+                font-style: normal;
+                line-height: 18px;
+                color: #434343;
+                margin-bottom: 8px;
+                font-size: 15px;
+        }
+        .spin-holder{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15rem 0 ;
+        }
